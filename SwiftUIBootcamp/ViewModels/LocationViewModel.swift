@@ -25,6 +25,7 @@ class LocationViewModel: ObservableObject{
     
     //show list of locations
     @Published var showLocationList: Bool = false
+    @Published var sheetLocationList: Location? = nil
     
     
     init(){

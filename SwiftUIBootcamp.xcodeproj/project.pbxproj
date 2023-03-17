@@ -23,6 +23,7 @@
 		A2CAF74B29C313E400424659 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CAF74A29C313E400424659 /* LocationListView.swift */; };
 		A2CAF74D29C3205F00424659 /* LocationReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CAF74C29C3205F00424659 /* LocationReviewView.swift */; };
 		A2EA69E529C40B580035E40E /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EA69E429C40B580035E40E /* LocationMapAnnotationView.swift */; };
+		A2EA69E729C41AB60035E40E /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EA69E629C41AB60035E40E /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		A2CAF74A29C313E400424659 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		A2CAF74C29C3205F00424659 /* LocationReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationReviewView.swift; sourceTree = "<group>"; };
 		A2EA69E429C40B580035E40E /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		A2EA69E629C41AB60035E40E /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				A2CAF74A29C313E400424659 /* LocationListView.swift */,
 				A2CAF74C29C3205F00424659 /* LocationReviewView.swift */,
 				A2EA69E429C40B580035E40E /* LocationMapAnnotationView.swift */,
+				A2EA69E629C41AB60035E40E /* LocationDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 			files = (
 				A2CAF74B29C313E400424659 /* LocationListView.swift in Sources */,
 				A2AEB67729B2FC730050C235 /* SwiftUIBootcamp.xcdatamodeld in Sources */,
+				A2EA69E729C41AB60035E40E /* LocationDetailView.swift in Sources */,
 				A2AEB67429B2FC730050C235 /* Persistence.swift in Sources */,
 				A2CAF74D29C3205F00424659 /* LocationReviewView.swift in Sources */,
 				A2CAF74529C15F1400424659 /* LocationsDataService.swift in Sources */,

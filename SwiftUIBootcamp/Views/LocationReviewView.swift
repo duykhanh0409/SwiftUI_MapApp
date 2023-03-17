@@ -68,7 +68,7 @@ extension LocationReviewView {
     
     private var learnMoreButton: some View {
         Button {
-            
+            vm.sheetLocationList = location
         } label: {
             Text("Learn more")
                 .font(.headline)
