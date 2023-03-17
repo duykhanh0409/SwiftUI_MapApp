@@ -10,7 +10,6 @@ import MapKit
 
 
 struct LocationView: View {
-//    @StateObject private var vm = LocationViewModel()
     @EnvironmentObject private var vm:LocationViewModel
   
     
