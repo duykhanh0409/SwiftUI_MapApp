@@ -10,11 +10,11 @@ import SwiftUI
 @main
 struct SwiftUIBootcampApp: App {
     let persistenceController = PersistenceController.shared
+    @StateObject private var vm = LocationViewModel()
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            LocationView().environmentObject(vm)
         }
     }
 }
